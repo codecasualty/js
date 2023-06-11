@@ -11,8 +11,8 @@ function runevent(e){
     e.preventDefault();
     // get entered value
     var inputvalue = document.getElementById('item');
+    if(inputvalue.value === '')return;
     
-    if (!(inputvalue.value === '')){
     console.log(inputvalue.value);
     // create list element add class and the text which we received from inputvalue
     var listele = document.createElement('li');
@@ -33,7 +33,7 @@ function runevent(e){
     // console.log(document.querySelector('.list-group'));
     
     inputvalue.value='';
-    }
+    
 }
 
 function removeele(e){
