@@ -1,0 +1,6 @@
+dom is document object model.
+it is basically structured representation of html document.
+It's like tree of nodes/elements created by browser.
+javascript can be used to read/write/manipulate to the DOM.
+DOM is object oriented that means each node has its own properties and methods.
+
